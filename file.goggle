@@ -1,0 +1,68 @@
+! name: CTI Trusted Sources
+! description: Boost trusted CTI vendor research and news outlets; discard known noise domains
+! public: true
+! author: cti-workspace
+
+! ============================================================
+! TIER A — primary research vendors (max boost)
+! ============================================================
+$boost=10,site=mandiant.com
+$boost=10,site=cloud.google.com
+$boost=10,site=crowdstrike.com
+$boost=10,site=unit42.paloaltonetworks.com
+$boost=10,site=microsoft.com
+$boost=10,site=techcommunity.microsoft.com
+$boost=10,site=security.microsoft.com
+$boost=10,site=msrc.microsoft.com
+$boost=10,site=talosintelligence.com
+$boost=10,site=blog.talosintelligence.com
+$boost=10,site=welivesecurity.com
+$boost=10,site=eset.com
+$boost=10,site=securelist.com
+$boost=10,site=kaspersky.com
+$boost=10,site=sentinelone.com
+$boost=10,site=trendmicro.com
+$boost=10,site=secureworks.com
+$boost=10,site=proofpoint.com
+$boost=10,site=threatinsight.proofpoint.com
+
+! ============================================================
+! TIER B — other trusted vendors and government CERTs
+! ============================================================
+$boost=5,site=sophos.com
+$boost=5,site=news.sophos.com
+$boost=5,site=blog.google
+$boost=5,site=services.google.com
+$boost=5,site=volexity.com
+$boost=5,site=securityintelligence.com
+$boost=5,site=rapid7.com
+$boost=5,site=research.checkpoint.com
+$boost=5,site=blog.checkpoint.com
+$boost=5,site=fortinet.com
+$boost=5,site=fortiguard.com
+$boost=5,site=huntress.com
+$boost=5,site=trellix.com
+$boost=5,site=zscaler.com
+$boost=5,site=cisa.gov
+$boost=5,site=ncsc.gov.uk
+$boost=5,site=cyber.gov.au
+$boost=5,site=enisa.europa.eu
+$boost=5,site=hhs.gov
+
+! ============================================================
+! TIER B — reputable security news outlets
+! ============================================================
+$boost=3,site=bleepingcomputer.com
+$boost=3,site=thehackernews.com
+$boost=3,site=darkreading.com
+$boost=3,site=krebsonsecurity.com
+$boost=3,site=securityweek.com
+$boost=3,site=infosecurity-magazine.com
+$boost=3,site=industrialcyber.co
+$boost=3,site=threatconnect.com
+
+! ============================================================
+! DISCARD — known noise / profile-only / data already ingested
+! ============================================================
+$discard,site=attack.mitre.org
+$discard,site=malpedia.caad.fkie.fraunhofer.de
