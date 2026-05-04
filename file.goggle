@@ -6,25 +6,25 @@
 ! ============================================================
 ! TIER A — primary research vendors (max boost)
 ! ============================================================
-$boost=10,site=mandiant.com
-$boost=10,site=cloud.google.com
-$boost=10,site=crowdstrike.com
-$boost=10,site=unit42.paloaltonetworks.com
-$boost=10,site=microsoft.com
-$boost=10,site=techcommunity.microsoft.com
-$boost=10,site=security.microsoft.com
-$boost=10,site=msrc.microsoft.com
-$boost=10,site=talosintelligence.com
-$boost=10,site=blog.talosintelligence.com
-$boost=10,site=welivesecurity.com
-$boost=10,site=eset.com
-$boost=10,site=securelist.com
-$boost=10,site=kaspersky.com
-$boost=10,site=sentinelone.com
-$boost=10,site=trendmicro.com
-$boost=10,site=secureworks.com
-$boost=10,site=proofpoint.com
-$boost=10,site=threatinsight.proofpoint.com
+$boost=5,site=mandiant.com
+$boost=5,site=cloud.google.com
+$boost=5,site=crowdstrike.com
+$boost=5,site=unit42.paloaltonetworks.com
+$boost=5,site=microsoft.com
+$boost=5,site=techcommunity.microsoft.com
+$boost=5,site=security.microsoft.com
+$boost=5,site=msrc.microsoft.com
+$boost=5,site=talosintelligence.com
+$boost=5,site=blog.talosintelligence.com
+$boost=5,site=welivesecurity.com
+$boost=5,site=eset.com
+$boost=5,site=securelist.com
+$boost=5,site=kaspersky.com
+$boost=5,site=sentinelone.com
+$boost=5,site=trendmicro.com
+$boost=5,site=secureworks.com
+$boost=5,site=proofpoint.com
+$boost=5,site=threatinsight.proofpoint.com
 
 ! ============================================================
 ! TIER B — other trusted vendors and government CERTs
